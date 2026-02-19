@@ -1,0 +1,110 @@
+export default {
+  // General
+  app_name: 'AgileEstimate',
+  language: 'Idioma',
+  cancel: 'Cancelar',
+  save: 'Guardar',
+  delete: 'Eliminar',
+  add: 'Agregar',
+  close: 'Cerrar',
+  confirm: 'Confirmar',
+  back: 'Volver',
+  loading: 'Cargando...',
+  optional: 'Opcional',
+
+  // Home
+  home_title: 'AgileEstimate',
+  home_subtitle: 'Scrum Poker para equipos ágiles — sin backend, sin registro',
+  create_session: 'Crear Sesión',
+  load_session: 'Cargar Sesión',
+  recent_sessions: 'Sesiones Recientes',
+  no_sessions: 'No hay sesiones guardadas',
+  new_session: 'Nueva Sesión',
+
+  // Session Form
+  sprint_name: 'Nombre del Sprint',
+  sprint_name_placeholder: 'ej. Sprint 23',
+  facilitator: 'Facilitador',
+  facilitator_placeholder: 'Tu nombre',
+  card_type: 'Tipo de Cartas',
+  fibonacci: 'Fibonacci (1, 2, 3, 5, 8, 13, 21)',
+  size: 'Tallas (S, M, L, XL)',
+  create_session_btn: 'Crear Sesión',
+  session_created: 'Sesión creada',
+
+  // Participants
+  participants: 'Participantes',
+  add_participant: 'Agregar Participante',
+  participant_name: 'Nombre',
+  participant_name_placeholder: 'Nombre del participante',
+  role: 'Rol',
+  roles_developer: 'Developer',
+  roles_qa: 'QA',
+  roles_po: 'Product Owner',
+  roles_sm: 'Scrum Master',
+  vote_status: 'Estado',
+  voted: 'Votó',
+  pending: 'Pendiente',
+  no_participants: 'No hay participantes. Agrega uno para empezar.',
+
+  // Stories
+  stories: 'Historias de Usuario',
+  add_story: 'Agregar Historia',
+  story_id: 'ID',
+  story_id_placeholder: 'ej. US-001',
+  story_title: 'Título',
+  story_title_placeholder: 'ej. Login con Google',
+  story_description: 'Descripción',
+  story_description_placeholder: 'Descripción de la historia (opcional)',
+  story_status_pending: 'Pendiente',
+  story_status_voting: 'Votando',
+  story_status_estimated: 'Estimada',
+  final_estimate: 'Estimación Final',
+  vote_story: 'Votar',
+  no_stories: 'No hay historias. Agrega una para empezar.',
+
+  // Voting
+  voting_board: 'Tablero de Votación',
+  your_vote: 'Tu Voto',
+  select_card: 'Selecciona una carta',
+  reveal_votes: 'Revelar Votos',
+  reset_votes: 'Reiniciar Votos',
+  voting_in_progress: 'Votación en progreso',
+  all_voted: 'Todos han votado',
+  waiting_votes: 'Esperando votos',
+  next_story: 'Siguiente Historia',
+  finish_story: 'Finalizar Historia',
+  set_estimate: 'Establecer Estimación',
+
+  // Results
+  results: 'Resultados',
+  average: 'Promedio',
+  most_common: 'Más común',
+  highest: 'Mayor',
+  lowest: 'Menor',
+  consensus: 'Consenso',
+  consensus_yes: '¡Consenso!',
+  consensus_no: 'Sin consenso',
+  distribution: 'Distribución',
+  votes_of: 'de',
+  voted_count: 'votos',
+
+  // History
+  history: 'Historial',
+  session_history: 'Historial de Sesiones',
+  no_history: 'Sin historial',
+  created_at: 'Creado',
+  estimated_stories: 'Historias estimadas',
+
+  // Confirmations
+  confirm_delete_session: '¿Eliminar esta sesión? No se puede deshacer.',
+  confirm_change_story: 'Cambiar de historia cancelará los votos actuales. ¿Continuar?',
+  confirm_reset_votes: '¿Reiniciar todos los votos de esta historia?',
+
+  // Errors
+  error_name_required: 'El nombre es requerido',
+  error_facilitator_required: 'El facilitador es requerido',
+  error_story_title_required: 'El título es requerido',
+  error_participant_name_required: 'El nombre es requerido',
+  error_already_voted: 'Ya votaste esta historia',
+};

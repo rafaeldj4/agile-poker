@@ -1,0 +1,110 @@
+export default {
+  // General
+  app_name: 'AgileEstimate',
+  language: 'Language',
+  cancel: 'Cancel',
+  save: 'Save',
+  delete: 'Delete',
+  add: 'Add',
+  close: 'Close',
+  confirm: 'Confirm',
+  back: 'Back',
+  loading: 'Loading...',
+  optional: 'Optional',
+
+  // Home
+  home_title: 'AgileEstimate',
+  home_subtitle: 'Scrum Poker for agile teams — no backend, no sign-up required',
+  create_session: 'Create Session',
+  load_session: 'Load Session',
+  recent_sessions: 'Recent Sessions',
+  no_sessions: 'No saved sessions',
+  new_session: 'New Session',
+
+  // Session Form
+  sprint_name: 'Sprint Name',
+  sprint_name_placeholder: 'e.g. Sprint 23',
+  facilitator: 'Facilitator',
+  facilitator_placeholder: 'Your name',
+  card_type: 'Card Type',
+  fibonacci: 'Fibonacci (1, 2, 3, 5, 8, 13, 21)',
+  size: 'T-Shirt Sizes (S, M, L, XL)',
+  create_session_btn: 'Create Session',
+  session_created: 'Session created',
+
+  // Participants
+  participants: 'Participants',
+  add_participant: 'Add Participant',
+  participant_name: 'Name',
+  participant_name_placeholder: 'Participant name',
+  role: 'Role',
+  roles_developer: 'Developer',
+  roles_qa: 'QA',
+  roles_po: 'Product Owner',
+  roles_sm: 'Scrum Master',
+  vote_status: 'Status',
+  voted: 'Voted',
+  pending: 'Pending',
+  no_participants: 'No participants yet. Add one to get started.',
+
+  // Stories
+  stories: 'User Stories',
+  add_story: 'Add Story',
+  story_id: 'ID',
+  story_id_placeholder: 'e.g. US-001',
+  story_title: 'Title',
+  story_title_placeholder: 'e.g. Login with Google',
+  story_description: 'Description',
+  story_description_placeholder: 'Story description (optional)',
+  story_status_pending: 'Pending',
+  story_status_voting: 'Voting',
+  story_status_estimated: 'Estimated',
+  final_estimate: 'Final Estimate',
+  vote_story: 'Vote',
+  no_stories: 'No stories yet. Add one to get started.',
+
+  // Voting
+  voting_board: 'Voting Board',
+  your_vote: 'Your Vote',
+  select_card: 'Select a card',
+  reveal_votes: 'Reveal Votes',
+  reset_votes: 'Reset Votes',
+  voting_in_progress: 'Voting in progress',
+  all_voted: 'All voted',
+  waiting_votes: 'Waiting for votes',
+  next_story: 'Next Story',
+  finish_story: 'Finish Story',
+  set_estimate: 'Set Estimate',
+
+  // Results
+  results: 'Results',
+  average: 'Average',
+  most_common: 'Most Common',
+  highest: 'Highest',
+  lowest: 'Lowest',
+  consensus: 'Consensus',
+  consensus_yes: 'Consensus!',
+  consensus_no: 'No consensus',
+  distribution: 'Distribution',
+  votes_of: 'of',
+  voted_count: 'votes',
+
+  // History
+  history: 'History',
+  session_history: 'Session History',
+  no_history: 'No history yet',
+  created_at: 'Created',
+  estimated_stories: 'Estimated stories',
+
+  // Confirmations
+  confirm_delete_session: 'Delete this session? This cannot be undone.',
+  confirm_change_story: 'Changing story will discard current votes. Continue?',
+  confirm_reset_votes: 'Reset all votes for this story?',
+
+  // Errors
+  error_name_required: 'Name is required',
+  error_facilitator_required: 'Facilitator is required',
+  error_story_title_required: 'Title is required',
+  error_participant_name_required: 'Name is required',
+  error_already_voted: 'You already voted on this story',
+};
